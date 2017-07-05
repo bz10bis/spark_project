@@ -1,5 +1,6 @@
-import org.apache.spark.ml.{Pipeline, PipelineModel}
-import org.apache.spark.ml.classification.{MultilayerPerceptronClassifier}
+import org.apache.spark.ml.{Pipeline,PipelineModel}  
+import org.apache.spark.ml.feature.{VectorAssembler,StringIndexer,IndexToString}  
+import org.apache.spark.ml.classification.{MultilayerPerceptronClassifier}  
 import org.apache.spark.ml.evaluation.{MulticlassClassificationEvaluator}
 
 // ###################### Functions ######################
